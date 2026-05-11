@@ -1,0 +1,18 @@
+{
+  "title": "Custom Key Mappings",
+  "rules": [
+    {
+      "description": "Disable Caps Lock",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [{ "key_code": "vk_none" }]
+        }
+      ]
+    }
+  ]
+}
